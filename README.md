@@ -10,7 +10,7 @@ include Permalink
 key :name, String
 has_permalink :name
 
-
+```
 #get it
 
 <%= link_to @category.name,category_path(@category.permalink) %>
